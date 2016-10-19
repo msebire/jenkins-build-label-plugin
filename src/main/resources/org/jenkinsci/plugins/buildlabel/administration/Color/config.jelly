@@ -1,0 +1,18 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="Color">
+        <f:entry title="Id" field="id">
+            <f:textbox/>
+        </f:entry>
+        <f:entry title="Text color" field="textColor">
+            <f:textbox/>
+        </f:entry>
+        <f:entry title="Background color" field="backgroundColor">
+            <f:textbox/>
+        </f:entry>
+        <f:entry title="">
+            <div align="right">
+                <f:repeatableDeleteButton/>
+            </div>
+        </f:entry>
+    </f:section>
+</j:jelly>

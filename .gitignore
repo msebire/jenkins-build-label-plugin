@@ -1,0 +1,17 @@
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea
+
+# Eclipse project files
+.settings
+.metadata
+build
+bin
+
+# Maven files
+target/
+
+# Jenkins files
+work/

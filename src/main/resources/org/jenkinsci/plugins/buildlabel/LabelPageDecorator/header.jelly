@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core">
+    <link href="${resURL}/plugin/build-label/css/badge.css" rel="stylesheet"/>
+    <style type="text/css">
+        <j:forEach var="color" items="${it.colors}">
+            .build-label-${color.id} {
+                background-color: ${color.backgroundColor};
+                color: ${color.textColor};
+            }
+        </j:forEach>
+    </style>
+</j:jelly>

@@ -1,0 +1,9 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="Build label colors">
+        <f:advanced>
+            <f:entry title="Colors">
+                <f:repeatableProperty field="colors"/>
+            </f:entry>
+        </f:advanced>
+    </f:section>
+</j:jelly>
